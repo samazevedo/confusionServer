@@ -6,8 +6,6 @@ const Dishes = require('../models/dishes');
 
 const dishRouter = express.Router();
 
-dishRouter.route('/');
-
 dishRouter.use(bodyParser.json());
 
 dishRouter.route('/')
